@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>411</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineedit_main">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>20</y>
+      <width>331</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_add">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>50</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_delete">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>90</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_delete">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>90</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_equality_first">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>130</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_equality_second">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>130</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_equality">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>130</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сравнить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_addition_first">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>170</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_addition_second">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>170</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_addition">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>170</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сложить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_multiplication_first">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>210</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_multiplication_second">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>210</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_multiplication">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>210</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Умножить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_value">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_value">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>250</y>
+      <width>171</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вычислить значение в точке</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_derivative_polynomial">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>290</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_derivative_number">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>290</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_derivative">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>330</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вычислить производную</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_division_first">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>370</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_division_second">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>370</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_division">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>370</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Разделить</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineedit_derivative_variable">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>330</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinbox_find_root">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>410</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_find_root">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>410</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти целые корни</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineedit_input_file">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>450</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineedit_output_file">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>490</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_input_file">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>450</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Считать из файла</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_output_file">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>490</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить в файл</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
