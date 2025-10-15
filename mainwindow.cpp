@@ -13,6 +13,8 @@
 using std::vector;
 using std::string;
 
+// Test for git
+
 NodePolynomial::NodePolynomial(): a(0), power(26, 0), next(nullptr) {}
 
 bool operator== (NodePolynomial& lhs, NodePolynomial& rhs) {
